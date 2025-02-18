@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Hero and About Section</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <style>
+     
+    </style>
+</head>
+<body>
+    <section class="hero-section">
+    <div class="container">
+        <header class="d-flex justify-content-between align-items-center p-3">
+            <div class="d-flex align-items-center">
+                <img src="images/mindzmap.png" alt="MindzMap Logo" style="height: 40px;">
+            </div>
+            <nav class="navbar navbar-expand-md navbar-dark bg-transparent">
+              <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarResponsive">
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3">
+                          <li class="nav-item">
+                              <a class="nav-link text-white text-decoration-none" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-white text-decoration-none" href="#">Industries</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-white text-decoration-none" href="#">Capabilities</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-white text-decoration-none" href="#">About Us</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link text-white text-decoration-none" href="#">Contact Us</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="btn btn-primary cta-btn" href="#">Enquiry Now</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </nav>
+          
+        </header>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="text-uppercase text-primary">Lorem Ipsum Dolor</p>
+            <h1 class="display-4 fw-bold">Fusce in dolor congue,<br> eleifend velit eget,<br> aliquet turpis cursus.</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in dolor congue,<br> eleifend velit eget, aliquet turpis. Donec cursus nisi nec eleifend condimentum. <br>Sed nec sagittis quam. Nulla facilisi.</p>
+            <div class="mt-4 mobile-get">
+                <a href="#" class="btn btn-primary cta-btn me-3">Get Started</a>
+                <a href="#" class="cta-secondary text-white mobile-cta">Or, are you a supplier?</a>
+            </div>
+        </div>
+        <div class="footer-labels">
+            <span><img src="images/award.png" alt="ITAR" style="width: 20px;"> ITAR & EJ/CP Registered</span>
+            <span><img src="images/award.png" alt="AS9100" style="width: 20px;"> AS9100 Compliant</span>
+            <span><img src="images/flag.png" alt="USA" style="width: 20px;"> USA Suppliers</span>
+        </div>
+    </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="about-title">SED EGET NUNC</p>
+                    <h2 class="about-heading">Vestibulum aliquam aliquam eget libero et luctus</h2>
+                    <p class="about-text">Vivamus aliquet est sit amet cursus dignissim. Sed ullamcorper ante eget semper semper. Integer et hendrerit metus.</p>
+                    <p class="about-text">Ut non dolor libero. Ut eleifend suscipit augue, ultrices placerat orci mollis id. Cras convallis neque quis sodales bibendum.</p>
+                    <div class="d-flex gap-5 mb-4">
+                        <div>
+                            <p class="stats">100+</p>
+                            <p class="about-text">Aliquam enim lacus, cursus quis suscipit id tristique.</p>
+                        </div>
+                        <div>
+                            <p class="stats">50+</p>
+                            <p class="about-text">Aliquam enim lacus, cursus quis suscipit id tristique.</p>
+                        </div>
+                    </div>
+                    <a href="#" class="know-more-btn">
+                        Know More About Us
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793L8.146 3.854a.5.5 0 1 1 .708-.708l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/engine.png" alt="Engine Image" class="img-fluid mobile-engine">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section" style="background-color: #f6faff;">
+      <div class="container">
+        <p class="text-center service-title">SED EGET NUNC</p>
+        <h2 class="text-center mb-5 service-head">Curabitur lacinia in tellus<br> eget tempus lacinia</h2>
+        <div class="row p-3 mobile-pad">
+          <div class="col-md-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6">
+                  <h5 class="card-title">Nam accumsan</h5>
+                  <p class="card-text">Duis aliquet sapien ut iaculis pellentesque. Phasellus eget laoreet augue, sit amet scelerisque enim. Sed sit amet sapien.</p>
+                  <a href="#" class="know-more-btn">
+                    View More Details
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793L8.146 3.854a.5.5 0 1 1 .708-.708l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/gears.png" alt="Service 2" class="service-image">
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6">
+                  <h5 class="card-title">Nam accumsan</h5>
+                  <p class="card-text">Duis aliquet sapien ut iaculis pellentesque. Phasellus eget laoreet augue, sit amet scelerisque enim. Sed sit amet sapien.</p>
+                  <a href="#" class="know-more-btn">
+                    View More Details
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793L8.146 3.854a.5.5 0 1 1 .708-.708l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </a>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/gears.png" alt="Service 2" class="service-image">
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <div class="row p-3">
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                    <h5 class="card-title">Nam accumsan</h5>
+                    <p class="card-text">Duis aliquet sapien ut iaculis pellentesque. Phasellus eget laoreet augue, sit amet scelerisque enim. Sed sit amet sapien.</p>
+                    <a href="#" class="know-more-btn">
+                      View More Details
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793L8.146 3.854a.5.5 0 1 1 .708-.708l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                      </svg>
+                  </a>
+                  </div>
+                  <div class="col-md-6">
+                      <img src="images/gears.png" alt="Service 2" class="service-image">
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-6">
+                    <h5 class="card-title">Nam accumsan</h5>
+                    <p class="card-text">Duis aliquet sapien ut iaculis pellentesque. Phasellus eget laoreet augue, sit amet scelerisque enim. Sed sit amet sapien.</p>
+                    <a href="#" class="know-more-btn">
+                      View More Details
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793L8.146 3.854a.5.5 0 1 1 .708-.708l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                      </svg>
+                  </a>
+                  </div>
+                  <div class="col-md-6">
+                      <img src="images/gears.png" alt="Service 2" class="service-image">
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+      </div>
+    </section>
+
+    <section class="services-list padd" style="background-color: #fff;">
+    <div class="container my-5 "> <!--right-align class:caro-->
+      <div class="row">
+        <div class="col-8 text-left">
+            <small class="text-primary">CURABITUR VEL</small>
+            <h2 class="serv-head">Vestibulum dignissim dolor<br> eget tellus ornare ultricies</h2>
+        </div>
+        <div class="col-4 text-left d-flex flex-column justify-content-center">
+            <div class="row mobile-row">
+                <div class="col-2">
+                    <div class="chevron-btn-1">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M15 18l-6-6 6-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="chevron-btn-2">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M9 18l6-6-6-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <!-- First Slide (Active) -->
+            <div class="carousel-item active">
+                <div class="row g-4">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/service-list.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Scelerisque</h5>
+                                <p class="card-text">Nam accumsan lacus quis viverra lacinia. Sed eget nunc eu est tempus scelerisque.</p>
+                                <a href="#" class="learn-more">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/service-list.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Scelerisque</h5>
+                                <p class="card-text">Nam accumsan lacus quis viverra lacinia. Sed eget nunc eu est tempus scelerisque.</p>
+                                <a href="#" class="learn-more">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/service-list.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Scelerisque</h5>
+                                <p class="card-text">Nam accumsan lacus quis viverra lacinia. Sed eget nunc eu est tempus scelerisque.</p>
+                                <a href="#" class="learn-more">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/service-list.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Scelerisque</h5>
+                                <p class="card-text">Nam accumsan lacus quis viverra lacinia. Sed eget nunc eu est tempus scelerisque.</p>
+                                <a href="#" class="learn-more">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Second Slide -->
+            <div class="carousel-item">
+                <div class="row g-4">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/service-list.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">New Slide</h5>
+                                <p class="card-text">This is another slide content.</p>
+                                <a href="#" class="learn-more">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/service-list.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">New Slide</h5>
+                                <p class="card-text">This is another slide content.</p>
+                                <a href="#" class="learn-more">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/service-list.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">New Slide</h5>
+                                <p class="card-text">This is another slide content.</p>
+                                <a href="#" class="learn-more">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card">
+                            <img src="images/service-list.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">New Slide</h5>
+                                <p class="card-text">This is another slide content.</p>
+                                <a href="#" class="learn-more">Learn More →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more cards if needed -->
+                </div>
+            </div>
+        </div>
+    
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+    
+</div>
+    </section>  
+
+    <section class="why-us-section">
+    <img src="images/why-us.png" alt="Aircraft Image" class="img-fluid">
+    <div class="container why-cont">   
+        <div class="why-us">
+            <div class="icon-text">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3a1 1 0 0 0-2 0v6l-8 5v2l8-2.5V19l-2 1v1l3-1 3 1v-1l-2-1v-5.5L21 16Z"/></svg>
+                <p>Suspendisse <br> Tristique</p>
+            </div>
+            <div class="icon-text">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3a1 1 0 0 0-2 0v6l-8 5v2l8-2.5V19l-2 1v1l3-1 3 1v-1l-2-1v-5.5L21 16Z"/></svg>
+                <p>Suspendisse <br> Tristique</p>
+            </div>
+            <div class="icon-text">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3a1 1 0 0 0-2 0v6l-8 5v2l8-2.5V19l-2 1v1l3-1 3 1v-1l-2-1v-5.5L21 16Z"/></svg>
+                <p>Suspendisse <br> Tristique</p>
+            </div>
+            <div class="icon-text">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 16v-2l-8-5V3a1 1 0 0 0-2 0v6l-8 5v2l8-2.5V19l-2 1v1l3-1 3 1v-1l-2-1v-5.5L21 16Z"/></svg>
+                <p>Suspendisse <br> Tristique</p>
+            </div>
+        </div>
+    </div>
+</section>  
+
+<section class="testimonial-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="slide-count">01/05</p>
+                <div class="stars">★★★★★</div>
+                <p class="mt-3 testimonial-text">Vestibulum porta vulputate tellus, in varius massa tristique at. Mauris sed massa sed justo viverra blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus...</p>
+                <div class="d-flex align-items-center mt-3">
+                    <img src="images/client.jpg" class="rounded-circle me-3" alt="User">
+                    <div>
+                        <strong class="client-name">Vetrivel Ganesan</strong>
+                        <p class="m-0 text-muted">CEO at DMMOLOOG, Chennai.</p>
+                    </div>
+                </div>
+                <div class="mt-3 d-flex gap-2 testi-buttons">
+                    <div class="chevron-btn-1">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M15 18l-6-6 6-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="chevron-btn-2">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M9 18l6-6-6-6" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 position-relative mobile-video">
+                <img src="images/testimonial.jpg" class="img-fluid" alt="Testimonial Image">
+                <div class="play-button">▶</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="clients-section padd">
+    <div class="container carousel-container">
+        <h5 class="text-center mb-4 client-title">Trusted by Over 150+ Partners Worldwide</h5>
+        <div id="clientCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-around">
+                        <img class="mobile-client" src="images/client-1.svg" alt="Client 1">
+                        <img class="mobile-client" src="images/client-2.svg" alt="Client 2">
+                        <img class="mobile-client" src="images/client-3.svg" alt="Client 3">
+                        <img class="mobile-client" src="images/client-4.svg" alt="Client 4">
+                        <img class="mobile-client" src="images/client-5.svg" alt="Client 5">
+                        <img class="mobile-client" src="images/client-2.svg" alt="Client 6">
+                        <img class="mobile-client" src="images/client-7.svg" alt="Client 7">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="d-flex justify-content-around">
+                        <img class="mobile-client" src="images/client-1.svg" alt="Client 1">
+                        <img class="mobile-client" src="images/client-2.svg" alt="Client 2">
+                        <img class="mobile-client" src="images/client-3.svg" alt="Client 3">
+                        <img class="mobile-client" src="images/client-4.svg" alt="Client 4">
+                        <img class="mobile-client" src="images/client-5.svg" alt="Client 5">
+                        <img class="mobile-client" src="images/client-2.svg" alt="Client 6">
+                        <img class="mobile-client" src="images/client-7.svg" alt="Client 7">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+</section>
+
+<section class="location-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="location-title">NAM ACCUMSAN</p>
+                <h2 class="location-heading">Sed sit amet sapien vitae odio facilisis consequat unc maximus nisi eu</h2>
+                <p class="location-text">Vestibulum porta vulputate tellus, in varius massa tristique at. Mauris sed massa sed justo viverra blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                <p class="location-text">Vestibulum porta vulputate tellus, in varius massa tristique at. Mauris sed massa sed justo viverra blandit. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+
+                <a href="#" class="know-more-btn">
+                    Learn More
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793L8.146 3.854a.5.5 0 1 1 .708-.708l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <div class="image-overlay">
+                    <img src="images/map.png" alt="Map Image" class="img-fluid mobile-map">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="faq-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <p class="faq-title">DAPIBUS</p>
+                <h2 class="faq-heading">Maecenas convallis<br> ante non nibh</h2>
+                
+                <a href="#" class="know-more-btn">
+                    More FAQ's
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793L8.146 3.854a.5.5 0 1 1 .708-.708l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                Mauris sed massa sed justo viverra blandit. Interdum et malesuada fames?
+                            </button>
+                        </h2>
+                        <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt tempus diam ac scelerisque.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                Curabitur lacinia in tellus eget tempus?
+                            </button>
+                        </h2>
+                        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt tempus diam ac scelerisque.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                Fusce tristique elit non augue malesuada ullamcorper?
+                            </button>
+                        </h2>
+                        <div id="faq3" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt tempus diam ac scelerisque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt tempus diam ac scelerisque.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                Pnterdum et malesuada fames ac ante ipsum primis in faucibus?
+                            </button>
+                        </h2>
+                        <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt tempus diam ac scelerisque.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                Curabitur libero enim, blandit sit amet nunc id, luctus sollicitudin eros?
+                            </button>
+                        </h2>
+                        <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt tempus diam ac scelerisque.
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="blog-section padd">
+    <div class="container">
+        <div class="text-center">
+            <small class="text-primary">CURABITUR VEL</small>
+            <h2 class="section-title">Pellentesque sit amet est atti <br> facilisis, commodo mauris</h2>
+        </div>
+    </div>
+</section>
+
+<section class="blog2-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="blog-card">
+                    <img src="images/service-list.jpeg" alt="Blog Image">
+                    <div class="blog-content">
+                        <p class="blog-category">— Nam accumsan</p>
+                        <p class="blog-description">
+                            <a href="#">Duis aliquet sapien ut iaculis<br> pellentesque hasellus eget laoreet.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="blog-card">
+                    <img src="images/service-list.jpeg" alt="Blog Image">
+                    <div class="blog-content">
+                        <p class="blog-category">— Nam accumsan</p>
+                        <p class="blog-description">
+                            <a href="#">Duis aliquet sapien ut iaculis<br> pellentesque hasellus eget laoreet.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="blog-card">
+                    <img src="images/service-list.jpeg" alt="Blog Image">
+                    <div class="blog-content">
+                        <p class="blog-category">— Nam accumsan</p>
+                        <p class="blog-description">
+                            <a href="#">Duis aliquet sapien ut iaculis<br> pellentesque hasellus eget laoreet.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row mt-4">
+            <div class="col-md-4 mb-4">
+                <div class="blog-card">
+                    <img src="images/service-list.jpeg" alt="Blog Image">
+                    <div class="blog-content">
+                        <p class="blog-category">— Nam accumsan</p>
+                        <p class="blog-description">
+                            <a href="#">Duis aliquet sapien ut iaculis<br> pellentesque hasellus eget laoreet.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="blog-card">
+                    <img src="images/service-list.jpeg" alt="Blog Image">
+                    <div class="blog-content">
+                        <p class="blog-category">— Nam accumsan</p>
+                        <p class="blog-description">
+                            <a href="#">Duis aliquet sapien ut iaculis<br> pellentesque hasellus eget laoreet.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <div class="blog-card">
+                    <img src="images/service-list.jpeg" alt="Blog Image">
+                    <div class="blog-content">
+                        <p class="blog-category">— Nam accumsan</p>
+                        <p class="blog-description">
+                            <a href="#">Duis aliquet sapien ut iaculis<br> pellentesque hasellus eget laoreet.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center blog-button">
+    <a href="#" class="text-center blog-btn">
+        More Blogs
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793L8.146 3.854a.5.5 0 1 1 .708-.708l5 5a.5.5 0 0 1 0 .708l-5 5a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+        </svg>
+    </a>
+    </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- Logo and Locations -->
+            <div class="col-md-3">
+                <img src="images/mindzmap.png" alt="MindzMap Logo" class="footer-logo">
+                <div class="footer-locations">
+                    <h5>Locations</h5>
+                    <p><strong>India</strong><br>+91 00000 00000<br>info@mindzmap.com</p>
+                    <p><strong>USA</strong><br>+1 000 000 0000<br>info@mindzmap.com</p>
+                    <p><strong>UK</strong><br>+44 0000 000000<br>info@mindzmap.com</p>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-2">
+                <h5>Quick Links</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Industries</a></li>
+                    <li><a href="#">Capabilities</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Industries -->
+            <div class="col-md-2">
+                <h5>Industries</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Aerospace</a></li>
+                    <li><a href="#">Medical</a></li>
+                    <li><a href="#">Oil & Gas</a></li>
+                    <li><a href="#">Industrial</a></li>
+                    <li><a href="#">Embedded Systems</a></li>
+                    <li><a href="#">Energy</a></li>
+                </ul>
+            </div>
+
+            <!-- Capabilities -->
+            <div class="col-md-2">
+                <h5>Capabilities</h5>
+                <ul class="footer-links">
+                    <li><a href="#">Engineering Services</a></li>
+                    <li><a href="#">Manufacturing</a></li>
+                    <li><a href="#">Metrology</a></li>
+                    <li><a href="#">Assembly / Testing</a></li>
+                    <li><a href="#">Certification</a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-md-3">
+                <h5>Newsletter</h5>
+                <p>Subscribe to our newsletter for useful tips, news, and resources around industrial MindzMap.</p>
+                <button class="subscribe-btn">Yes, Sign Me Up! <span>&#8594;</span></button>
+            </div>
+        </div>
+
+        <div class="row bottom-row-1">
+            <div class="col-md-6 left-col">
+                
+            </div>
+            <div class="col-md-6 right-col">
+                <div class="social-icons">
+                    <span>FOLLOW US:</span>
+                    <img src="images/facebook.svg" alt="Facebook" width="24" height="24">
+                    <img src="images/instagram.svg" alt="Facebook" width="24" height="24">
+                    <img src="images/twitter.svg" alt="Facebook" width="24" height="24">
+                    <img src="images/youtube.svg" alt="Facebook" width="24" height="24">
+                   
+                </div>
+            </div>
+        </div>
+
+        <div class="row bottom-row-2">
+            <div class="col-md-6 left-col">
+                <p>© 2025 All Rights Reserved. MindzMap.</p>
+            </div>
+            <div class="col-md-6 right-col">
+                <p>Designed by ❤️ <strong>MindzMap</strong></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let clientCarousel = new bootstrap.Carousel(document.getElementById("clientCarousel"), {
+                interval: 5000, // Change slide every 2 seconds
+                ride: "carousel",
+                wrap: true // Infinite loop
+            });
+        });
+    </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+    let accordionButtons = document.querySelectorAll(".accordion-button");
+
+    accordionButtons.forEach(button => {
+        button.addEventListener("click", function() {
+            let icon = this.querySelector(".icon");
+
+            // Reset all icons and colors
+            accordionButtons.forEach(btn => {
+                btn.querySelector(".icon").textContent = "+";
+                btn.style.color = "#01aeea"; // Default color
+            });
+
+            // Change icon and text color of active button
+            if (!this.classList.contains("collapsed")) {
+                icon.textContent = "-";
+                this.style.color = "#01aeea"; // Change text color to red
+            }
+        });
+    });
+});
+
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("chevron-btn-1").addEventListener("click", function () {
+            let prevButton = document.querySelector("#carouselExample .carousel-control-prev");
+            if (prevButton) {
+                prevButton.click();
+            } else {
+                console.error("Carousel prev button not found.");
+            }
+        });
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
